@@ -1,0 +1,13 @@
+ Definir Color Como Cadena
+    Dimension Color[8]
+
+    Color[1] <- "Negro"
+    Color[2] <- "Morado"
+    Color[3] <- "Cafe"
+    Color[4] <- "Rosado"
+    Color[5] <- "Amarillo"
+    Color[6] <- "Verde"
+    Color[7] <- "Violeta"
+    Color[8] <- "Negro"
+
+    Escribir "El valor en la posicion 1 es: ", Color[1]

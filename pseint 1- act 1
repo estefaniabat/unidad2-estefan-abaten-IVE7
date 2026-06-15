@@ -1,0 +1,23 @@
+//arreglos con ciclos
+//problema- un programa que almacene 10 notas del curso de programación
+//y mostrar las notas ingresadas y el promedio de las notas 
+Algoritmo ejemplo1 
+	definir notas, i, promedio Como Entero
+	//arreglo 
+	Dimensionar notas[10]
+	
+	//solicitar las notas
+	Para i <- 1  Hasta 10 Con Paso 1 Hacer
+		Escribir "Digite la nota", i, " :"
+		leer notas[i]
+		suma = suma + notas[i]
+	Fin Para
+	
+	//mostrar las notas 
+	Limpiar Pantalla
+	Para i <- 1  Hasta 10 Con Paso 1 Hacer
+		Escribir "Notas", i , "=" , notas[i]
+		esperar 1 segundos 
+	Fin para
+	Escribir "El promedio de las notas son:", (suma/10)
+FinAlgoritmo

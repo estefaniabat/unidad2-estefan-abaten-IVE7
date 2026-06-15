@@ -1,0 +1,19 @@
+dimension numeroEnteros[8]
+	
+	Definir indice, numeroMayor, posicionMayor Como Entero
+	para indice <- 1 hasta 8 Hacer
+		Escribir "Ingrese el número", indice, ":"
+		leer numeroEnteros[indice]
+		
+		si indice = 1 Entonces
+			numeroMayor <- numeroEnteros[indice]
+			posicionMayor <- indice
+		SiNo
+			si numeroEnteros[indice] > numeroMayor Entonces
+				numeroMayor <- numeroEnteros[indice]
+				posicionMayor <- indice
+			FinSi
+		FinSi
+	FinPara
+	Escribir "El núermo myor es:", numeroMayor
+	Escribir "Se encuentra en la posición", posicionMayor

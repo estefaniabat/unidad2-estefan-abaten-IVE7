@@ -1,0 +1,13 @@
+Dimension edadesPersonas[7]
+	
+	Definir  indice, cantidadMayoresEdad Como Entero
+	cantidadMayoresEdad <- 0
+	para indice <- 1 hasta 7 hacer
+		Escribir "Ingrese la edad de la persona", indice, ":"
+		leer edadesPersonas[indice]
+		
+		si edadesPersonas[indice] >= 18 Entonces
+			cantidadMayoresEdad <- cantidadMayoresEdad + 1
+		FinSi
+	FinPara
+	Escribir "Cantidad de personas mayores de edad:", cantidadMayoresEdad
